@@ -6,7 +6,7 @@ class newApp{
         $dbhost ='localhost';
         $dbuser ='root';
         $dbpass ="";
-        $dbname ='blog_project';
+        $dbname ='crude_app';
         $this->conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
         if(!$this->conn){
             die ("Connection Faild!");
